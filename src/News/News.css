@@ -1,0 +1,32 @@
+.news-container{
+display: flex;
+width: 80%;
+justify-content: center;
+align-items: flex-start;
+gap:5%;
+flex-wrap: wrap;
+}
+
+.latestnews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+
+}
+
+.latestnews > h1{
+    font-family: cursive;
+    color: rgb(96, 190, 1);
+    background-image: url("../images/leaf.png");
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 70px;    
+}
+
+.latestnews > p{
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+.product-headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-headline > h1{
+    font-family: cursive;
+    color: rgb(104, 204, 4);
+    background-image: url("../images/leaf.png");
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 70px;    
+}
+.product-items-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 40px;
+margin-top: 20px;
+}

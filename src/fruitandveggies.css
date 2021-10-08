@@ -1,0 +1,115 @@
+.veggies{
+    background-image: url("./images/5.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: center; 
+    background-position-y: center;
+    width : 600px;
+    height: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.info1{
+    background-color: #f9b1af;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    right : -140px;
+    top : -70px;
+}
+.info2{
+    background-color:#ffdb4f;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    right : -140px;
+    top : -70px;
+}
+
+.info-details{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: cursive;
+}
+.button1{
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: white;
+    border:none;
+    outline: none;
+    background-color: #fe6d30;
+    cursor: pointer;
+}
+.button1:hover{
+    transition: ease 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.button2{
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: white;
+    border:none;
+    outline: none;
+    background-color: #f4a602;
+    cursor: pointer;
+}
+.button2:hover{
+    transition: ease 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.fruits{
+    background-image: url("./images/6.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center; 
+    background-position-y: center;
+    width: 600px;
+    height: 250px;
+    margin: 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.info1:hover ,.info2:hover{
+    transform: scale(1.1);
+    transition: ease 1s;
+}
+
+@media screen and (max-width:600px) {
+    .fruits , .veggies{
+        width: 90%;
+        margin: 5px;
+        height: 200px;
+        background-size: cover;
+    }
+
+    .info1 , .info2{
+        width: 20rem;
+        height: 20rem;
+        right: -80px;
+        top: -60px;
+    }
+}

@@ -1,0 +1,70 @@
+.subscribe-container{
+    background-image: url("./images/bg-3.jpg");
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.basket{
+    position: absolute;
+    right: -150px;
+    width: 45%;
+    z-index: 1;
+}
+
+.subscribe{
+    text-align: center;
+}
+
+.subscribe > h1{
+    font-family: cursive;
+}
+
+
+.input-subs{
+    width: 500px;
+    border-radius: 20px;
+    z-index: 5;
+}
+
+.input-subs > input {
+    border: none;
+    padding: 12px 14px;
+    outline: none;
+    width: 75%;
+    border-radius: 20px;
+}
+.readmore{
+        border-radius: 20px;
+        padding: 12px 26px;
+        color: white;
+        border:1px solid #5adA10;
+        background-color: #5adA10;
+        cursor: pointer;
+        margin-left: -30px;
+}
+
+
+@media screen and (max-width:800px) {
+    .basket{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .input-subs{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+    }
+    .readmore{
+        margin: 0;
+    }
+}

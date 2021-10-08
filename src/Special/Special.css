@@ -1,0 +1,66 @@
+.special-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.special-container > h1{
+    color: rgb(101, 197, 5);
+    font-family: cursive;
+    background-image: url("../images/leaf.png");
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 70px;    
+    margin: 0;
+}
+
+.special-container > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.special-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-flex{
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.myspecial{
+    background-image: url("../images/circle1.png");
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
+
+hr{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .product-flex{
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+}

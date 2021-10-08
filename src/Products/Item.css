@@ -1,0 +1,12 @@
+.image-container{
+    width: 140px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    color: black;
+}

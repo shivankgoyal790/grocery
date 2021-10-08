@@ -1,0 +1,32 @@
+.mainnavlinks{
+    color: #333;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    width: 580px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.mainnavlinks > li:hover{
+    color: #5adA10;
+    transition: ease 0.5s;
+}
+
+.active{
+    color: #5adA10;
+}
+
+@media screen and (max-width:950px) {
+    .mainnavlinks{
+        width: 100%;
+        padding: 0;
+        gap:10px;
+        justify-content: space-around;
+    }
+}
+    

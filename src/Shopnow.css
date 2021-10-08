@@ -1,0 +1,47 @@
+.Shopnow{
+    width: 100%;
+    box-sizing: border-box;
+    height: 500px;
+    background-image: url("./images/3.jpg");
+    background-size: cover;
+    background-position-x: center;
+    overflow-x: hidden;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.advertisment{
+
+    margin-left: 15%;
+}
+
+.advertisment>h1{
+    margin: 0;
+    padding: 0;
+    color: #5adA10;
+    font-family: cursive;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.advertisment > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shopbtn{
+    padding: 6px 14px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    outline : none;
+    border-radius: 20px;
+}
+
+.shopbtn:hover{
+    background-color: #5adA10;
+    color: white;
+    transition: ease 0.5s;
+}
