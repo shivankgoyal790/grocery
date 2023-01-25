@@ -6,7 +6,7 @@ import {faCaretDown} from "@fortawesome/free-solid-svg-icons"
 const Navlinks = () =>{
     return(
     <ul className="mainnavlinks">
-        <li className="active">Home</li>
+        <li className="active">Anurag </li>
         <li>Shop<i><FontAwesomeIcon icon={faCaretDown} /></i></li>
         <li>Best Sellers<i><FontAwesomeIcon icon={faCaretDown} /></i></li>
         <li>Deal of the day<i><FontAwesomeIcon icon={faCaretDown} /></i></li>
